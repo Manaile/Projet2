@@ -1,8 +1,68 @@
-header
-{	
-	border: 2px black solid;
-	display: flex;
-	
+body
+{
+	font-family: verdanna;
+	color: #616161;
+	font-size: 30px;
+}
 
-	
+
+header figure
+{	
+	width: 33%;
+	text-align: center;
+	padding: 50px 0;
+}
+
+
+header figure img
+{
+ 	width: 50%;
+ 	border-radius: 50%;
+ 	border: 5px rgb(223, 177, 47) solid;
+
+}
+
+span
+{
+	border-bottom: 2px #FFCA28 solid;
+}
+
+.title
+{
+	margin: auto;
+}
+
+h1
+{
+ 	color: #424242;
+ 	font-size: 40px;
+}
+
+
+strong
+{
+ 	color: #FFCA28;
+ 	font-weight: bold;
+
+}
+
+
+
+
+.container
+{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+.container >*:nth-child(1)
+
+{
+	background: #FFCA28;
+}
+
+.container >*:nth-child(2)
+{
+
 }
