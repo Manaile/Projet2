@@ -3,7 +3,12 @@
 	width: 97%;
 	margin: 0 auto;
 }
-header figure
+.container >*:nth-child(1)
 {
 	width: 100%;
 }
+ .title
+ {
+ 	margin: 20px auto;
+ 	
+ }
