@@ -3,12 +3,18 @@
 	width: 97%;
 	margin: 0 auto;
 }
-.container >*:nth-child(1)
+.container >*:nth-child(1),.container >*:nth-child(2)
 {
 	width: 100%;
 }
- .title
+
+ .title,  section div
  {
  	margin: 20px auto;
  	
  }
+
+main div div i
+{
+margin: 5px;
+}

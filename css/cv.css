@@ -66,7 +66,7 @@ strong
 }
 
 
-main h2
+.yellow_bloc h2
 {
 	text-align: center;
 	color: #FFCA28;
@@ -115,8 +115,43 @@ main div div i
 	font-size: 30px;
 }
  
- main div div 
+main div div
+{
+	text-align: center;
+	margin: 20px;
+}
+
+.container >*:nth-child(2)
+{
+	
+	margin-left: 30px;
+	width: 61%;
+
+}
+
+section div i
+{
+	
+	font-size: 30px;
+	color: #FFCA28;
+
+	
+}
+ section div h2
  {
- 	margin: 20px;
- 	text-align: center;
+ 	
+ 	color: #424242;
+ 	background-color: white;
+ 	margin: 0 20px;
+ 	
+
+ }
+ section div
+ {
+
+ 	display: flex;
+	flex-direction: row;
+	padding-bottom: 10px;
+	border-bottom: 2px #FFCA28 solid;
+	
  }

@@ -1,9 +1,17 @@
 .container
 {
+	margin: 0 auto;
 	width: 980px;
 
 }
 main div div i
 {
 margin: 20px;
+}
+
+ul li
+{
+	
+	margin: 10px 5px;
+
 }
