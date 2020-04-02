@@ -90,7 +90,7 @@ ul li
  	
  	text-align: justify;
  	padding: 50px;
- 	margin-bottom: 300px;
+ 	
 
  }
 
@@ -176,12 +176,21 @@ article div
 div h3, div h4
 {
 	margin: 5px 0;
+
 }
 
 article i
 {
 	margin-right: 6px;
+	margin-top: 3px;
 	color: #FFCA28;
+	font-size: 15px;
 	
 
+}
+
+h3
+{
+	font-weight: bold;
+	font-size: 18px;
 }

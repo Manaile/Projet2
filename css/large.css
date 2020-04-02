@@ -15,3 +15,8 @@ ul li
 	margin: 10px 5px;
 
 }
+
+article div
+{
+	width: 60%;
+}
