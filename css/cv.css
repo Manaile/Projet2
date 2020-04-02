@@ -160,6 +160,7 @@ article
 	display: flex;
 	flex-wrap: wrap;
 	margin: 20px 0;
+	justify-content: space-between;
 
 }
 
@@ -169,7 +170,7 @@ article div
 	display: flex;
 	flex-direction: column;
 	text-align: justify;
-	width: 70%;
+	width: 60%;
 	margin-left: 90px;
 	
 }
@@ -181,7 +182,7 @@ div h3, div h4
 
 article i
 {
-	margin-right: 6px;
+
 	margin-top: 3px;
 	color: #FFCA28;
 	font-size: 15px;
