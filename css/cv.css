@@ -7,7 +7,7 @@ body
 }
 
 
-header figure
+header figure   									 /*espace pour la phot de profil*/
 {	
 	
 	text-align: center;
@@ -15,7 +15,7 @@ header figure
 }
 
 
-header figure img
+header figure img										/*photo de profil*/
 {
  	width: 50%;
  	border-radius: 50%;
@@ -23,34 +23,35 @@ header figure img
 
 }
 
-.title span
+.title span											/*le bout de titre souligné*/
 {
 	border-bottom: 2px #FFCA28 solid;
 }
 
-.title
+.title												/*titre principal*/
 {
 	margin: auto;
 }
 
-h1
+h1													/*prenom nom*/
 {
  	color: #424242;
  	font-size: 40px;
 }
-h2
+h2													/*titre secondaire*/
 {
 	font-size: 30px;
+	
 }
 
-strong
+strong												/*mettre prenom en gras*/
 {
  	color: #FFCA28;
  	font-weight: bold;
 
 }
 
-.container
+.container												/*mise en place des bloc*/
 {
 	display: flex;
 	flex-wrap: wrap;
@@ -58,7 +59,7 @@ strong
 }
 
 
-.container >*:nth-child(1)
+.container >*:nth-child(1)							/*bloc jaune header*/
 
 {
 	width: 35%;
@@ -66,7 +67,7 @@ strong
 }
 
 
-.yellow_bloc h2
+.yellow_bloc h2									/*suite du bloc jaune*/
 {
 	text-align: center;
 	color: #FFCA28;
@@ -76,52 +77,52 @@ strong
 }
 
 
-ul li
+ul li												/*liste pour contact*/		
 {
 	padding: 10px;
 	margin: 20px;
 
-
 }
 
 
- h2 p
+ main p 										/*paragraphe à propos de moi*/
  {
  	
  	text-align: justify;
- 	padding: 50px;
+ 	margin: 50px;
+ 	padding-bottom: 75%;
  	
-
  }
 
- a
+ a 												/*lien vers mail,phone..*/
  {
 	text-decoration: none;
 	color: #616161;
  }
 
- a:hover
+ a:hover										/*effet lors du survol des liens*/
  {
  	font-weight: bold;
  }
 
-main div div i
+main div div i 									/*image loisirs*/
 {
 	margin: 0 10px;
-	padding: 10px;
+	padding: 10px ;
 	color: #424242 ;
 	border: 3px #424242 solid ;
 	border-radius: 50%;
 	font-size: 30px;
 }
  
-main div div
+main div div									/*espace dédié pour loisirs*/
 {
 	text-align: center;
 	margin: 20px;
+
 }
 
-.container >*:nth-child(2)
+.container >*:nth-child(2)					/*espace pour le bloc blanc*/
 {
 	
 	margin-left: 30px;
@@ -129,69 +130,64 @@ main div div
 
 }
 
-section div i
+section div i 								/*image des titres du bloc blanc*/
 {
 	
 	font-size: 30px;
 	color: #FFCA28;
+	margin-right: 20px;
 
-	
 }
- section div h2
+ section div h2								/*titre du bloc blanc*/
  {
  	
  	color: #424242;
  	background-color: white;
- 	margin: 0 20px;
  	
-
+ 	
  }
- section >*:nth-child(1)
+ section section >*:nth-child(1)				/*souligné et aligné le titre et l'image*/
  {
 
  	display: flex;
-	flex-direction: row;
 	padding-bottom: 10px;
 	border-bottom: 2px #FFCA28 solid;
 	
  }
 
-article >*:nth-child(1)
+article >*:nth-child(1)							/*espace pour la partie gauche du bloc blanc*/
 {
 	
 	width: 35%;
 	font-size: 18px;
 	display: flex;
 
-	
-
 }
-article
+article 									/*mise en place du flex du coté droit bloc blanc*/
 {
 	display: flex;
 	flex-wrap: wrap;
 	margin: 50px 0;
 	
-
 }
 
 
-article>*:nth-child(2)
+article>*:nth-child(2)						/*mise en colonne de la partie droite du bloc blanc*/	
 {	
 	display: flex;
 	flex-direction: column;
 	text-align: justify;
-	width: 58%;
-	
+	width: 60%;
+
 	
 }
-div h3, div h4
+div h3, div h4 								/*marge pour les titres des textes du coté droit*/
 {
 	margin: 5px 0;
 
 }
 
-article div i
+article div i 							/*les petit cercles du bloc blanc*/
 {
 
 	margin-top: 3px;
@@ -201,24 +197,29 @@ article div i
 	
 
 }
-
-h3
+h4										/*petit titre du coté droit bloc blanc*/
+{
+	padding-bottom: 10px;
+}
+h3 										/*moyen titre du coté droit bloc blanc*/
 {
 	font-weight: bold;
 	font-size: 18px;
 }
 
-.contact
+.contact 								/*mise en place du flex pour recommandation*/
 {
 	display: flex;
 	margin: 50px 5px;
 
 }
-.contact ul
+
+.contact div							/*mise en forme de recommandation*/
 {
 	width: 50%;
+	text-align: left;
 }
-.contact li
+.contact li 							/*suppression des marges pour la liste*/
 {
 	
 	margin: 0px;

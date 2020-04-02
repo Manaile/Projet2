@@ -1,15 +1,15 @@
-.container
+.container				/*restriction de l'ecran pour une meilleure visibilité*/
 {
 	margin: 0 auto;
 	width: 980px;
 
 }
-main div div i
+main div div i 			/*image des loisirs mieux répartir dans l'espace*/
 {
 margin: 20px;
 }
 
-ul li
+ul li 					/*marge réduite pour que le texte de la partie jaune ne depasse pas lors du hover*/
 {
 	
 	margin: 10px 5px;

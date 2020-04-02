@@ -1,15 +1,19 @@
-.container
+.container 		   /*restriction de l'ecran pour une meilleure visibilité*/
 {
 	width: 570px;
 	margin: 0 auto;
 }
 
-.container >*:nth-child(1), .container >*:nth-child(2)
+.container >*:nth-child(1), .container >*:nth-child(2)   /*optimisation de l'espace sur petit écran*/
 {
 	width: 100%;
 }
- .title, section div
+ .title, section div 						/*marge pour les titres pour un contenu aéré*/
  {
  	margin: 40px auto;
  	
  }
+main p 									/*paragraphe 'àpropos de moi' plus centré*/
+{
+	padding:0px;
+}
