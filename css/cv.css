@@ -1,4 +1,4 @@
-body
+body												/*police, couleur et taille du corps*/
 {
 	font-family: verdanna;
 	color: #616161;
@@ -7,7 +7,7 @@ body
 }
 
 
-header figure   									 /*espace pour la phot de profil*/
+header figure   									 /*espace pour la photo de profil*/
 {	
 	
 	text-align: center;
@@ -15,7 +15,7 @@ header figure   									 /*espace pour la phot de profil*/
 }
 
 
-header figure img										/*photo de profil*/
+header figure img									/*photo de profil*/
 {
  	width: 50%;
  	border-radius: 50%;
@@ -23,35 +23,45 @@ header figure img										/*photo de profil*/
 
 }
 
+
+
 .title span											/*le bout de titre souligné*/
 {
 	border-bottom: 2px #FFCA28 solid;
 }
+
+
 
 .title												/*titre principal*/
 {
 	margin: auto;
 }
 
-h1													/*prenom nom*/
+
+h1													/*prénom / nom*/
 {
  	color: #424242;
  	font-size: 40px;
 }
+
+
+
 h2													/*titre secondaire*/
 {
 	font-size: 30px;
 	
 }
 
-strong												/*mettre prenom en gras*/
+
+strong												/*mise en gras du prénom*/
 {
  	color: #FFCA28;
  	font-weight: bold;
 
 }
 
-.container												/*mise en place des bloc*/
+
+.container											/*mise en place des bloc*/
 {
 	display: flex;
 	flex-wrap: wrap;
@@ -59,7 +69,8 @@ strong												/*mettre prenom en gras*/
 }
 
 
-.container >*:nth-child(1)							/*bloc jaune header*/
+
+.container >*:nth-child(1)							/*bloc jaune header et loisirs */
 
 {
 	width: 35%;
@@ -67,7 +78,8 @@ strong												/*mettre prenom en gras*/
 }
 
 
-.yellow_bloc h2									/*suite du bloc jaune*/
+
+.yellow_bloc h2										/*titres du bloc jaune*/
 {
 	text-align: center;
 	color: #FFCA28;
@@ -85,29 +97,36 @@ ul li												/*liste pour contact*/
 }
 
 
- main p 										/*paragraphe à propos de moi*/
+
+ main p 											/*paragraphe "à propos de moi"*/
  {
  	
  	text-align: justify;
  	margin: 50px;
- 	padding-bottom: 75%;
- 	
+
+	
  }
 
- a 												/*lien vers mail,phone..*/
+
+
+ a 													/*lien vers mail,phone..*/
  {
 	text-decoration: none;
 	color: #616161;
  }
 
- a:hover										/*effet lors du survol des liens*/
+
+
+ a:hover											/*effet lors du survol des liens*/
  {
  	font-weight: bold;
  }
 
-main div div i 									/*image loisirs*/
+
+
+section .yellow_bloc div i 							/*image loisirs*/
 {
-	margin: 0 10px;
+	margin: 10px;
 	padding: 10px ;
 	color: #424242 ;
 	border: 3px #424242 solid ;
@@ -115,22 +134,30 @@ main div div i 									/*image loisirs*/
 	font-size: 30px;
 }
  
-main div div									/*espace dédié pour loisirs*/
+
+
+section .yellow_bloc div							/*espace dédié pour loisirs*/
 {
 	text-align: center;
 	margin: 20px;
+	
 
 }
 
-.container >*:nth-child(2)					/*espace pour le bloc blanc*/
+
+
+.container >*:nth-child(2)						   /*espace pour le bloc blanc*/
 {
 	
 	margin-left: 30px;
-	width: 61%;
+	width: 60%;
 
 }
 
-section div i 								/*image des titres du bloc blanc*/
+
+
+
+div section div i, section div div i				/*images des titres du bloc blanc*/
 {
 	
 	font-size: 30px;
@@ -138,7 +165,11 @@ section div i 								/*image des titres du bloc blanc*/
 	margin-right: 20px;
 
 }
- section div h2								/*titre du bloc blanc*/
+
+
+
+
+div section h2, .recommendation h2					/*titres du bloc blanc*/
  {
  	
  	color: #424242;
@@ -146,7 +177,11 @@ section div i 								/*image des titres du bloc blanc*/
  	
  	
  }
- section section >*:nth-child(1)				/*souligné et aligné le titre et l'image*/
+
+
+
+
+ div section >*:nth-child(1),.recommendation		/*souligner et aligner les titres et les images*/
  {
 
  	display: flex;
@@ -155,71 +190,87 @@ section div i 								/*image des titres du bloc blanc*/
 	
  }
 
-article >*:nth-child(1)							/*espace pour la partie gauche du bloc blanc*/
+
+
+article >*:nth-child(1)								/*espace pour la partie gauche du bloc blanc*/
 {
 	
-	width: 35%;
+	width: 30%;
 	font-size: 18px;
 	display: flex;
+	text-align: left;
 
 }
-article 									/*mise en place du flex du coté droit bloc blanc*/
+
+
+
+article 											/*mise en place du flex du coté droit bloc blanc*/
 {
 	display: flex;
-	flex-wrap: wrap;
 	margin: 50px 0;
 	
 }
 
 
-article>*:nth-child(2)						/*mise en colonne de la partie droite du bloc blanc*/	
+article>*:nth-child(2)								/*mise en colonne de la partie droite du bloc blanc*/	
 {	
 	display: flex;
 	flex-direction: column;
 	text-align: justify;
 	width: 60%;
 
-	
 }
-div h3, div h4 								/*marge pour les titres des textes du coté droit*/
+
+
+div h3, div h4 										/*marge pour les titres des textes du coté droit*/
 {
 	margin: 5px 0;
 
 }
 
-article div i 							/*les petit cercles du bloc blanc*/
+
+
+div article div i 									/*les petit cercles du bloc blanc*/
 {
 
-	margin-top: 3px;
-	margin-right: 15px;
+	margin-top: 2px;
+	margin-right: 10px;
 	color: #FFCA28;
 	font-size: 15px;
-	
 
 }
-h4										/*petit titre du coté droit bloc blanc*/
+
+
+h4												  /*petit titre du coté droit bloc blanc*/
 {
 	padding-bottom: 10px;
 }
-h3 										/*moyen titre du coté droit bloc blanc*/
+
+
+h3 												/*moyen titre du coté droit bloc blanc*/
 {
 	font-weight: bold;
 	font-size: 18px;
 }
 
-.contact 								/*mise en place du flex pour recommandation*/
+
+.contact 										/*mise en place du flex pour recommandation*/
 {
 	display: flex;
+	justify-content: space-between;
 	margin: 50px 5px;
 
 }
 
-.contact div							/*mise en forme de recommandation*/
+
+.contact div									/*mise en forme de recommandation*/
 {
-	width: 50%;
+	
 	text-align: left;
 }
-.contact li 							/*suppression des marges pour la liste*/
+
+
+.contact li 									/*suppression des marges pour les blocs contact*/
 {
 	
 	margin: 0px;

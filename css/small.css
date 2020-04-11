@@ -1,19 +1,40 @@
-.container 		   /*restriction de l'ecran pour une meilleure visibilité*/
+.container 		   										/*restriction de l'ecran pour une meilleure visibilité*/
 {
 	width: 570px;
 	margin: 0 auto;
 }
 
-.container >*:nth-child(1), .container >*:nth-child(2)   /*optimisation de l'espace sur petit écran*/
+.container >*:nth-child(1), .container >*:nth-child(2) 	 /*optimisation de l'espace sur petit écran*/
 {
 	width: 100%;
+
 }
- .title, section div 						/*marge pour les titres pour un contenu aéré*/
+ .title, .container >*:nth-child(2) div					/*marge pour les titres pour un contenu aéré*/
  {
  	margin: 40px auto;
  	
  }
-main p 									/*paragraphe 'àpropos de moi' plus centré*/
+
+main p 													/*paragraphe 'àpropos de moi' plus centré*/
 {
 	padding:0px;
+}
+
+.contact												/*partie recommandation qui passe en colonne*/
+{
+	display: flex;
+	flex-direction: column;
+
+}
+
+
+body >*:nth-child(3)									/*loisirs qui passe en dessous de recommandation*/
+{			
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+.container >*:nth-child(2)								/*supression de la marge gauche pour le bloc blanc */
+{
+	margin-left: 0px;
 }
