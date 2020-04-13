@@ -124,7 +124,7 @@ ul li												/*liste pour contact*/
 
 
 
-section .yellow_bloc div i 							/*image loisirs*/
+footer .yellow_bloc div i 							/*image loisirs*/
 {
 	margin: 10px;
 	padding: 10px ;
@@ -136,7 +136,7 @@ section .yellow_bloc div i 							/*image loisirs*/
  
 
 
-section .yellow_bloc div							/*espace dédié pour loisirs*/
+.yellow_bloc div							/*espace dédié pour loisirs*/
 {
 	text-align: center;
 	margin: 20px;
@@ -157,7 +157,7 @@ section .yellow_bloc div							/*espace dédié pour loisirs*/
 
 
 
-div section div i, section div div i				/*images des titres du bloc blanc*/
+div section div i, .recommendation i				/*images des titres du bloc blanc*/
 {
 	
 	font-size: 30px;
