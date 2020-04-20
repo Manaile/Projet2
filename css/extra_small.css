@@ -3,9 +3,10 @@
 	width: 97%;
 	margin: 0 auto;
 }
-.container >*:nth-child(1),.container >*:nth-child(2) 		 /*optimisation de l'espace sur petit écran*/
+.container >*:nth-child(1),.container >*:nth-child(2), .container >*:nth-child(3) /*optimisation de l'espace sur petit écran*/
 {
 	width: 100%;
+	font-size: 18px;
 }
 
  .title, .container >*:nth-child(2) div	     				 /*marge pour les titres pour un contenu aéré*/
@@ -16,7 +17,7 @@
 
 footer .yellow_bloc div i 									/*image des loisirs mieux répartir dans l'espace*/
 {
-margin: 5px;
+margin: 12px;
 }
 
 main p 														/*paragraphe 'à propos de moi' plus centré*/
@@ -30,21 +31,38 @@ article 													/*bloc blanc passe en colonne*/
 	flex-direction: column;
 }
 
-.contact								/*partie recommandation qui passe en colonne*/
+.contact											/*partie recommandation qui passe en colonne*/
 {
 	display: flex;
 	flex-direction: column;
 }
 
 
-body >*:nth-child(3)					/*loisirs qui passe en dessous de recommandation*/
+body >*:nth-child(3)								/*loisirs qui passe en dessous de recommandation*/
 {
 	display: flex;
 	flex-direction: column-reverse;
 }
 
-.container >*:nth-child(2)				/*supression de la marge gauche pour le bloc blanc */
+.container >*:nth-child(2)							/*supression de la marge gauche pour le bloc blanc */
 {
 	margin-left: 0px;
 
 }
+
+
+ul li 									/*marge réduite pour que le texte de la partie jaune ne depasse pas lors du hover*/
+{
+	
+	margin: 10px 0;
+
+}
+
+h2{												/*modification de la taille des titres h2*/
+	font-size: 25px;
+}
+
+ a:hover											/*effet lors du survol des liens retiré*/
+ {
+ 	font-weight: normal;
+ }

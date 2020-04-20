@@ -38,3 +38,8 @@ body >*:nth-child(3)									/*loisirs qui passe en dessous de recommandation*/
 {
 	margin-left: 0px;
 }
+
+ a:hover											/*effet lors du survol des liens retiré*/
+ {
+ 	font-weight: normal;
+ }
